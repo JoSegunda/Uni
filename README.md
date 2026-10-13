@@ -24,9 +24,9 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
       <td>Java, OOP</td>
     </tr>
     <tr>
-      <td>Project Name 3</td>
-      <td>Brief description of the technical challenge</td>
-      <td>C, Algorithms</td>
+      <td>Nome do projecto 3</td>
+      <td>Descrição</td>
+      <td>C, Algoritmos</td>
     </tr>
   </tbody>
 </table>
