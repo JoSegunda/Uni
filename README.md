@@ -67,7 +67,45 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
 <details>
   <summary><strong>2.º Ano — 2024/2025</strong></summary>
 
-  ### Programação
+  ### Computação Gráfica
+
+  <details>
+  <summary>Projeto 1 — Tipografia 3D e Animação com Three.js (CG)</summary>
+
+  - Objetivo: Desenvolver uma aplicação interativa de Computação Gráfica 3D no navegador para carregar e renderizar texto tridimensional, aplicando efeitos graduais de entrada (translação vertical e interpolação de escala) combinados com rotação contínua em torno do eixo Y.
+  - Tecnologias: Three.js, WebGL, JavaScript (ES Modules), HTML5, CSS3, Git.
+  - Conceitos-chave: Computação gráfica 3D, carregamento de fontes vetoriais (`FontLoader`), geometria 3D chanfrada (`TextGeometry`), materiais e iluminação realista (`MeshStandardMaterial`, `DirectionalLight`, `AmbientLight`), interpolação linear (`THREE.MathUtils.lerp`), transformações espaciais (escala, translação, rotação contínua) e ajuste responsivo de câmara (`PerspectiveCamera`).
+  - Repositório: [Ver código-fonte](./Ano_2/1_semestre/computacao_grafica/3js/index.html)
+  </details>
+
+  <details>
+  <summary>Projeto 2 — Animação Gráfica 2D em Canvas (C2D)</summary>
+
+  - Objetivo: Criar uma aplicação web interativa em Canvas 2D que simula a rota de voo paramétrica de um avião seguido por um míssil/objeto acompanhante, com cálculo dinâmico de orientação vetorial, suavização de movimento e evento de explosão com efeitos visuais e sonoros ao clique.
+  - Tecnologias: JavaScript, HTML5 Canvas, CSS3, Git.
+  - Conceitos-chave: Computação gráfica 2D, cinemática/trajetórias paramétricas (curvas elípticas), trigonometria vetorial (Math.atan2, rotação e translação espacial), suavização de movimento (lerp/smooth factor), loop de animação contínuo (requestAnimationFrame) e manipulação do DOM/áudio.
+  - Repositório: [Ver código-fonte](./Ano_2/1_semestre/computacao_grafica/C2D/index.html)
+  </details>
+
+  <details>
+  <summary>Projeto 3 — Jogo de Perseguição e Fuga em SVG Dinâmico</summary>
+
+  - Objetivo: Desenvolver um jogo 2D interativo no navegador utilizando gráficos vetoriais (SVG) e JavaScript, onde o utilizador controla uma personagem (fantasma) com as teclas WASD para perseguir e capturar entidades autónomas (zombies/pacmen) com mecânicas de fuga, deteção de colisões e gestão de tempo/pontuação.
+  - Tecnologias: JavaScript, SVG (DOM API), HTML5, CSS3, Git.
+  - Conceitos-chave: Manipulação dinâmica de elementos SVG em tempo de execução via DOM (`createElementNS`, `setAttribute`), física básica e inteligência de evasão (cálculo de distância euclidiana via `Math.hypot` e aceleração por proximidade), reflexão nos limites da arena, gestão de eventos de teclado (`keydown`), loop de jogo a 60 FPS (`setInterval`) e integração de áudio reativo (música de fundo e efeitos sonoros).
+  - Repositório: [Ver código-fonte](./Ano_2/1_semestre/computacao_grafica/SVG/index.html)
+  </details>
+
+  <details>
+  <summary>Projeto 4 — Modelação e Cena 3D Declarativa com X3DOM (X3D)</summary>
+
+  - Objetivo: Criar um cenário virtual tridimensional interactivo directamente na web utilizando tecnologia X3D declarativa, representando um ambiente campestre com terreno, vegetação, cabana estruturada em módulos geométricos e perspetivas de câmara configuradas.
+  - Tecnologias: X3DOM, X3D, HTML5, CSS3, Git.
+  - Conceitos-chave: Modelação geométrica 3D (primitivas como cilindros, cones, caixas e esferas), estruturação e transformações de cena hierárquicas (translação, rotação e escala), iluminação pontual e direcional (`pointLight`, `directionalLight`), propriedades de materiais (`material`, `diffuseColor`), geometria por coordenadas indexadas (`indexedLineSet`) e definição de pontos de vista de câmara (`viewpoint`).
+  - Repositório: [Ver código-fonte](./Ano_2/1_semestre/computacao_grafica/X3D/index.html)
+  </details>
+
+  ### Programação 
 
   - [Projeto 1 — Gestão de alunos](./Ano_1/programacao/)
   - [Projeto 2 — Jogo em Python](./Ano:2ano/programacao-jogo/)

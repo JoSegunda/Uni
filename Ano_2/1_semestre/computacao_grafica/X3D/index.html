@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project X3D</title>
+    <script type='text/javascript' src='https://www.x3dom.org/release/x3dom-full.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/release/x3dom.css' />
+  </head>
+  <body style="background-color: #87CEEB;">
+    <x3d width='800px' height='600px'>
+      <scene>
+        <!-- Iluminação -->
+        <pointLight location='0 5 5' intensity='0.8'></pointLight>
+        <directionalLight direction='-1 -1 -1' intensity='0.5'></directionalLight>
+
+        <!-- Ambiente: chão -->
+        <shape>
+          <appearance>
+            <material diffuseColor='0.2 0.8 0.2'></material>
+          </appearance>
+          <box size='20 0.1 20'></box>
+        </shape>
+        <!-- Árvores -->
+        <!-- Árvore 1 -->
+        <transform translation="-7 1 -7">
+            <shape>
+              <appearance>
+                <material diffuseColor='0.4 0.2 0'></material>
+              </appearance>
+              <cylinder height='2' radius='0.2'></cylinder>
+            </shape>
+            <transform translation="0 1 0">
+              <shape>
+                <appearance>
+                  <material diffuseColor='0 0.5 0'></material>
+                </appearance>
+                <sphere radius='1'></sphere>
+              </shape>
+            </transform>
+          </transform>
+  
+          <!-- Árvore 2 -->
+          <transform translation="7 1 -7">
+            <shape>
+              <appearance>
+                <material diffuseColor='0.4 0.2 0'></material>
+              </appearance>
+              <cylinder height='2' radius='0.2'></cylinder>
+            </shape>
+            <transform translation="0 1 0">
+              <shape>
+                <appearance>
+                  <material diffuseColor='0 0.5 0'></material>
+                </appearance>
+                <sphere radius='1'></sphere>
+              </shape>
+            </transform>
+          </transform>
+  
+          <!-- Árvore 3 -->
+          <transform translation="0 1 7">
+            <shape>
+              <appearance>
+                <material diffuseColor='0.4 0.2 0'></material>
+              </appearance>
+              <cylinder height='2' radius='0.2'></cylinder>
+            </shape>
+            <transform translation="0 1 0">
+              <shape>
+                <appearance>
+                  <material diffuseColor='0 0.5 0'></material>
+                </appearance>
+                <sphere radius='1'></sphere>
+              </shape>
+            </transform>
+
+            <viewpoint DEF="overview" position="0 10 20" orientation="1 0 0 -0.5" description="Vista Geral"></viewpoint>
+
+        <!-- Cabana -->
+        <!-- Paredes -->
+        <transform translation='0 1 0'>
+          <shape>
+            <appearance>
+              <material diffuseColor='0.5 0.3 0.1'></material>
+            </appearance>
+            <cylinder height='2' radius='1'></cylinder>
+          </shape>
+        </transform>
+
+        <!-- Telhado -->
+        <transform translation='0 2 0'>
+          <shape>
+            <appearance>
+              <material diffuseColor='0.4 0.2 0'></material>
+            </appearance>
+            <cone height='1.5' bottomRadius='1.2'></cone>
+          </shape>
+        </transform>
+
+        <!-- Detalhe amarelo do telhado -->
+        <transform translation='0 2 0' rotation='0 1 0 0.8'>
+          <shape>
+            <appearance>
+              <material diffuseColor='1 1 0'></material>
+            </appearance>
+            <cone height='1.5' bottomRadius='1.2' solid='false'></cone>
+          </shape>
+        </transform>
+
+        <!-- Porta -->
+        <transform translation='0 0.5 0.9'>
+          <shape>
+            <appearance>
+              <material diffuseColor='0.2 0.1 0'></material>
+            </appearance>
+            <box size='0.4 1 0.1'></box>
+          </shape>
+        </transform>
+
+        <!-- Detalhes do telhado-->
+        <transform>
+          <shape>
+            <appearance>
+              <material diffuseColor='0 0 0'></material>
+            </appearance>
+            <indexedLineSet coordIndex='0 1 -1  1 2 -1  2 3 -1  3 4 -1'>
+              <coordinate point='0 2 0  1.2 2 0  0.8 2.5 0  0.4 2.8 0  0 3 0'></coordinate>
+            </indexedLineSet>
+          </shape>
+        </transform>
+      </scene>
+    </x3d>
+  </body>
+</html>
