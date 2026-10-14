@@ -120,10 +120,16 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
 <details>
   <summary><strong>3.º Ano — 2025/2026</strong></summary>
 
-  ### Programação
+  ### Aprendizagem Automática
 
-  - [Projeto 1 — Gestão de alunos](./Ano_1/programacao/)
-  - [Projeto 2 — Jogo em Python](./Ano:2ano/programacao-jogo/)
+  <details>
+  <summary>Projeto 1 — Diagnóstico de Tumores Cerebrais com Aprendizagem Automática</summary>
+
+  - Objetivo: Desenvolver um pipeline completo de Machine Learning para auxílio ao diagnóstico de tumores cerebrais com base em dados demográficos e atributos de textura e difusão de ressonância magnética (ADC e GLCM), avaliando e comparando múltiplos classificadores para submissão competitiva no Kaggle[cite: 33].
+  - Tecnologias: Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Git[cite: 33].
+  - Conceitos-chave: Classificação binária, análise exploratória de dados (EDA), pré-processamento com pipelines (`StandardScaler`, `OneHotEncoder`, `ColumnTransformer`), validação cruzada estratificada (`StratifiedKFold`), afinação de hiperparâmetros (`GridSearchCV`), avaliação de modelos (Acurácia, AUC-ROC, matriz de confusão, F1-Score), relevância de atributos (*Feature Importance*) e algoritmos de ensemble e lineares (Random Forest, Gradient Boosting e Regressão Logística)[cite: 33].
+  - Repositório: [Ver código-fonte](./Ano_3/1_semestre/Aprendizagem_automatica/trabalho_tumor_cerebral_corrigido_sem_ids_duplicados.ipynb)
+  </details>
 
   ### Matemática
 
