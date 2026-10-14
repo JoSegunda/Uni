@@ -131,9 +131,27 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
   - Repositório: [Ver código-fonte](./Ano_3/1_semestre/Aprendizagem_automatica/trabalho_tumor_cerebral_corrigido_sem_ids_duplicados.ipynb)
   </details>
 
-  ### Matemática
+  ### Programação 3
 
-  - [Projeto de análise matemática](./1-ano/matematica/)
+  <details>
+  <summary>Projeto 2 — Agente Inteligente para Batalha Naval em OCaml</summary>
+
+  - Objetivo: Desenvolver um agente autónomo em OCaml para jogar Batalha Naval através de um protocolo de comunicação por fluxos padrão (stdin/stdout), integrando posicionamento defensivo de frota, processamento de disparos recebidos e uma heurística de ataque reativa ("Modo Caça").
+  - Tecnologias: OCaml, Git.
+  - Conceitos-chave: Programação funcional, tipos de dados algébricos e variantes polimórficas (`type cell_status`, `type pos`), manipulação de listas e matrizes mutáveis, correspondência de padrões (*Pattern Matching*), autómato de estados (*State Machine*), I/O de terminal síncrono e heurísticas de exploração espacial (pesquisa em grelha e expansão de vizinhos adjacentes).
+  - Repositório: [Ver código-fonte](./Ano_3/1_semestre/programacao3/batalha_naval.ml)
+  </details>
+
+  ### Tecnologias Web
+  <details>
+  <summary>Projeto 3 — Salvar Comida: Plataforma Web contra o Desperdício Alimentar</summary>
+
+  - Objetivo: Desenvolver uma aplicação web orientada à sustentabilidade e combate ao desperdício alimentar, permitindo aos restaurantes publicar excedentes de refeições a preços acessíveis, aos clientes consultar e reservar doses em tempo real, e aos administradores gerir métricas, utilizadores e ofertas da plataforma[cite: 49, 51].
+  - Tecnologias: JavaScript (ES6+), Fetch API, HTML5, CSS3, jQuery, Git[cite: 47, 51].
+  - Conceitos-chave: Arquitetura cliente-servidor assíncrona baseada no consumo de APIs RESTful (`GET`/`POST` com `application/x-www-form-urlencoded`)[cite: 51, 52], manipulação dinâmica do DOM e interfaces orientadas a abas (Tabs / SPA simples)[cite: 48, 53], filtragem e paginação de dados em memória no lado do cliente[cite: 52, 53], gestão de estado e validação de formulários assíncronos[cite: 54, 55] e tratamento de respostas HTTP, erros e CORS[cite: 51, 52, 54].
+  - Repositório: [Ver código-fonte](./Ano_3/1_semestre/Tecnologias_web/)
+  </details>
+
 
 </details>
 

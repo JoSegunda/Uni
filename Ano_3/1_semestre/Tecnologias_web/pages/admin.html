@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/admin.css">
+    <script src="../scripts/admin.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Salvar Comida</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><div id="logo-nav"></div></a>
+
+            <ul id="navigation">
+                <li><a href="restaurante.html">Restaurantes</a></li>
+                <li><a href="cliente.html">Clientes</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="admin">
+        <div id="admin-tools">
+            <div id="admin-info">
+                <h1>Área de Admnistração</h1>
+                <p>Consulte restaurantes, clientes e ofertas da plataforma.</p>
+            </div>
+
+            <div id="admin-nav">
+                <p onclick="SetActive('rest-info')" id="rest-info" class="active">Restaurantes</p>
+                <p onclick="SetActive('client-info')" id="client-info" class="">Clientes</p>
+                <p onclick="SetActive('offers-info')" id="offers-info" class="disabled">Ofertas</p>
+            </div>
+            <div id="show-admin-info">
+                <div id="show-rest-info" class="show-info">
+                    <h1>Show restaurant Info</h1>
+                </div>
+                <div id="show-client-info" class="hide-info">
+                    <h1>Show client info</h1>
+                </div>
+                <div id="show-offers-info" class="hide-info">
+                    <h1>Show Offers Info</h1>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        <h1>Contactos</h1>
+        <div id="contactos">
+            <p>Desenvolvido por: Joaquim Segunda</p>
+            <p>Email: example@gmail.com</p>
+            <p>Telemóvel: 092-234-830</p>
+            <p>2025 &copy; <a href="https://www.uevora.pt/">uevora</a></p>
+        </div>
+        
+    </footer>
+</body>
+</html>
