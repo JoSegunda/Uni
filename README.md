@@ -4,7 +4,7 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
 
 <h2>Projetos em destaque</h2>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th align="left">Projeto</th>
@@ -29,7 +29,7 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
       <td>C, Algoritmos</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 
 <h2>Projectos Acadêmicos</h2>
@@ -105,14 +105,6 @@ Este repositório apresenta meus trabalhos acadêmicos, habilidades técnicas e 
   - Repositório: [Ver código-fonte](./Ano_2/1_semestre/computacao_grafica/X3D/index.html)
   </details>
 
-  ### Programação 
-
-  - [Projeto 1 — Gestão de alunos](./Ano_1/programacao/)
-  - [Projeto 2 — Jogo em Python](./Ano:2ano/programacao-jogo/)
-
-  ### Matemática
-
-  - [Projeto de análise matemática](./1-ano/matematica/)
 
 </details>
 
